@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog-Eared Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dog-Eared Books</h1>
+        <p class="tagline">An independent bookshop for curious readers</p>
+
+        <nav>
+            <a href="#staff-picks">Staff Picks</a>
+            <a href="#events">Events</a>
+            <a href="#book-club">Book Club</a>
+            <a href="#visit">Visit</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Come for one book.<br>
+                    <em>Leave with three.</em>
+                </h2>
+                <p>New and second-hand books, a children's corner,
+                   and armchairs you're welcome to sink into.</p>
+                <a href="#staff-picks" class="button">Browse staff picks</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1000&q=80"
+                     alt="Bookshelves inside a bookshop">
+            </div>
+        </section>
+
+        <section id="staff-picks" class="staff-section">
+            <h2>Staff picks this month</h2>
+
+            <div class="book-container">
+                <article class="book">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=500&q=80"
+                         alt="Books">
+                    <h3>The Midnight Library</h3>
+                    <p>Matt Haig · Picked by Amara</p>
+                    <button class="add-button" data-book="The Midnight Library">
+                        Add to book bag
+                    </button>
+                </article>
+
+                <article class="book">
+                    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=500&q=80"
+                         alt="Open book">
+                    <h3>Small Things Like These</h3>
+                    <p>Claire Keegan · Picked by James</p>
+                    <button class="add-button" data-book="Small Things Like These">
+                        Add to book bag
+                    </button>
+                </article>
+
+                <article class="book">
+                    <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=500&q=80"
+                         alt="Books for reading">
+                    <h3>Remarkably Bright Creatures</h3>
+                    <p>Shelby Van Pelt · Picked by Nia</p>
+                    <button class="add-button" data-book="Remarkably Bright Creatures">
+                        Add to book bag
+                    </button>
+                </article>
+
+                <article class="book">
+                    <img src="https://images.unsplash.com/photo-1513001900722-370f803f498d?auto=format&fit=crop&w=500&q=80"
+                         alt="A book in a reading space">
+                    <h3>Before the Coffee Gets Cold</h3>
+                    <p>Toshikazu Kawaguchi · Picked by Leo</p>
+                    <button class="add-button" data-book="Before the Coffee Gets Cold">
+                        Add to book bag
+                    </button>
+                </article>
+            </div>
+
+            <p id="bag-message">Your book bag is empty.</p>
+        </section>
+
+        <section class="community">
+            <div id="events">
+                <h2>Upcoming events</h2>
+                <p>24 Oct — Author reading and signing</p>
+                <p>31 Oct — Saturday story time for kids</p>
+                <p>07 Nov — Poetry open mic night</p>
+            </div>
+
+            <div id="book-club" class="club">
+                <h2>Join the book club</h2>
+                <p>One book a month, one evening of good conversation.
+                   Get the next pick by email.</p>
+
+                <form id="club-form">
+                    <label for="email">Email address</label>
+                    <input type="email" id="email"
+                           placeholder="Enter your email" required>
+                    <button type="submit">Sign up</button>
+                </form>
+
+                <p id="form-message"></p>
+            </div>
+        </section>
+
+        <section id="visit" class="visit">
+            <h2>Come in, have a browse.</h2>
+            <p>Monday–Saturday: 9:00 am–6:00 pm</p>
+            <p>Sunday: 10:00 am–4:00 pm</p>
+            <p>12 Book Lane, Your Town</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dog-Eared Books · Small shop. Big stories.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
